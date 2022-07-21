@@ -1,0 +1,11 @@
+class Rational
+	extends ____ implements ____
+{ ... }
+class RationalCmp
+	implements ____
+{
+	@Override
+	public int compare(____ x, ____ y) {
+		...
+	}
+}

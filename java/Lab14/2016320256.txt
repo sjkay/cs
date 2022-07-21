@@ -1,0 +1,106 @@
+1.(a)
+class java.lang.Object
+java.lang.Object
+
+(b)
+Object type
+
+(c)
+Object type
+
+(d)
+String type
+
+2.(a)
++remove(o: Object): boolean
+Removes the first element o from this list. Returns trueif an element is removed
+
++remove(index: int): boolean
+Removes the element at the specified index. Returns trueif an element is removed.
+
+(b)
+3
+4
+5
+
+(c)
+Integer
+
+(d)
+[4, 5]
+
+(e)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.remove(ArrayList.java:492)
+	at RemoveIndex.main(RemoveIndex.java:8)
+
+al array has [3, 4, 5] so it has 3 objects in it. The highest index for this is 2, so al.remove(3) creates an error as the index is out of bounds. 
+
+3.(a)
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+53
+59
+61
+67
+71
+73
+79
+83
+89
+97
+101
+103
+107
+109
+113
+
+(b)
+The printed numbers are all prime numbers. 
+From the code, we can see that only the index’s that are primes will be printed as all the non-prime indexed objects have become 0 from al.set(i*j,0).
+
+(c)
+import java.util.ArrayList;
+public class Prime {
+	public static void main(String []args) {
+		ArrayList<Object> al = new ArrayList<>();
+		int n = 120;
+		for(int i = 0; i < n; i++) {
+			al.add((Object)1);
+		}
+		al.set(0,(Object)0);
+		al.set(1,(Object)0);
+		for(int i = 2; i < n; i++) {
+			for(int j = 2; i*j < n; j++) {
+				al.set(i*j,(Object)0);
+			}
+		}
+		for(int i = 0; i < n; i++) {
+			if (al.get(i) == (Object)1) {
+				System.out.println(i);
+			}
+		}
+	}
+}
+
+4. Answer below
+..9
+.8
+5
+..4
+.3
+..2
