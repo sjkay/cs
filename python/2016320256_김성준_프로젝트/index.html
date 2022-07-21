@@ -1,0 +1,214 @@
+{% autoescape None %}
+  <html>
+  <head>
+  	<title>
+  		파이썬 프로젝트 - 김성준
+  	</title>
+  </head>
+  <body style="background-color:powderblue;">
+  <h1>Python for Everybody 2017</h1>
+  <h2>김성준 2016320256</h2>
+  <p>Graphing Calculator</p>
+    <form action="/" method="post">
+      <select name="cmd">
+  		<option value="graph">Draw</option>
+  		<option value="solve">Find zero</option>
+	  </select><br/>
+	  <table>
+			<tbody>
+				<tr>
+					<td>xmin:</td>
+					<td><input name="xmin"></td>
+				</tr>
+
+				<tr>
+					<td>xmax:</td>
+					<td><input name="xmax"></td>
+				</tr>
+
+				<tr>
+					<td>fn1:</td>
+					<td><input name="fn1"></td>
+				</tr>
+
+				<tr>
+					<td>fn2:</td>
+					<td><input name="fn2"></td>
+				</tr>
+
+				<tr>
+					<td>fn3:</td>
+					<td><input name="fn3"></td>
+				</tr>
+
+				<tr>
+					<td>fn4:</td>
+					<td><input name="fn4"></td>
+				</tr>
+
+				<tr>
+					<td>fn5:</td>
+					<td><input name="fn5"></td>
+				</tr>
+
+				<tr>
+					<td>fn6:</td>
+					<td><input name="fn6"></td>
+				</tr>
+
+				<tr>
+					<td>fn7:</td>
+					<td><input name="fn7"></td>
+				</tr>
+
+				<tr>
+					<td>fn8:</td>
+					<td><input name="fn8"></td>
+				</tr>
+
+				<tr>
+					<td>fn9:</td>
+					<td><input name="fn9"></td>
+				</tr>
+			</tbody>
+		</table>
+      <input type="submit">
+    </form>
+    {{mesg}}
+    <table border="1">
+		<tr>
+			<td>함수</td>
+			<td>Index</td>
+			<td>x</td>
+			<td>error</td>
+		</tr>
+
+		<tr>
+			<td>fn1</td>
+			<td>0</td>
+			<td>{{data[0]}}</td>
+			<td>{{data[1]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn1</td>
+			<td>1</td>
+			<td>{{data[2]}}</td>
+			<td>{{data[3]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn2</td>
+			<td>0</td>
+			<td>{{data[4]}}</td>
+			<td>{{data[5]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn2</td>
+			<td>1</td>
+			<td>{{data[6]}}</td>
+			<td>{{data[7]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn3</td>
+			<td>0</td>
+			<td>{{data[8]}}</td>
+			<td>{{data[9]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn3</td>
+			<td>1</td>
+			<td>{{data[10]}}</td>
+			<td>{{data[11]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn4</td>
+			<td>0</td>
+			<td>{{data[12]}}</td>
+			<td>{{data[13]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn4</td>
+			<td>1</td>
+			<td>{{data[14]}}</td>
+			<td>{{data[15]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn5</td>
+			<td>0</td>
+			<td>{{data[16]}}</td>
+			<td>{{data[17]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn5</td>
+			<td>1</td>
+			<td>{{data[18]}}</td>
+			<td>{{data[19]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn6</td>
+			<td>0</td>
+			<td>{{data[20]}}</td>
+			<td>{{data[21]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn6</td>
+			<td>1</td>
+			<td>{{data[22]}}</td>
+			<td>{{data[23]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn7</td>
+			<td>0</td>
+			<td>{{data[24]}}</td>
+			<td>{{data[25]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn7</td>
+			<td>1</td>
+			<td>{{data[26]}}</td>
+			<td>{{data[27]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn8</td>
+			<td>0</td>
+			<td>{{data[28]}}</td>
+			<td>{{data[29]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn8</td>
+			<td>1</td>
+			<td>{{data[30]}}</td>
+			<td>{{data[31]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn9</td>
+			<td>0</td>
+			<td>{{data[32]}}</td>
+			<td>{{data[33]}}</td>
+		</tr>
+
+		<tr>
+			<td>fn9</td>
+			<td>1</td>
+			<td>{{data[34]}}</td>
+			<td>{{data[35]}}</td>
+		</tr>
+
+	</table>
+	</body>
+</html>
