@@ -1,0 +1,2 @@
+Vector@7852e922
+inner product = 0.0

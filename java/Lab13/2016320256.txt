@@ -1,0 +1,55 @@
+1.(a)
+Point01@7852e922
+
+(b)
+There is no class file for Point01. You need to use javac on it or Test01.java to create a class file for Point01.
+
+2. (a)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at Test02.sum(Test02.java:14)
+	at Test02.main(Test02.java:5)
+There is an index out of bounds. When sum(ary,5) is called but ary only has 4 integers. So the highest index is [3] but the method sum will go up to ary[4]. This causes an exception.
+
+(b)
+More precise. The exception is shown clearer than (a). Through this new way we can get a better understanding of where the exception occurs.
+
+3.
+InvalidRadius04: Radius = -1.0
+end
+
+4.
+true
+true
+8
+
+5.
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="refresh" content="0;url=/mbshome/mbs/university/index.do">
+
+<title></title>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+6.
+Test07.java:3: error: Abst07 is abstract; cannot be instantiated
+		Abst07 x = new Abst07();
+		           ^
+1 error
+
+7.
+(3.0,3.0)

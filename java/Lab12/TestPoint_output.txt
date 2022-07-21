@@ -1,0 +1,5 @@
+Point(double,double)
+Point()
+Point(double,double)
+x1 = 10.0, y1 = 10.0
+x2 = 0.0, y2 = 0.0

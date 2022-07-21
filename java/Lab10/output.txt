@@ -1,0 +1,18 @@
+1/2 = 0
+Always called
+3/3 = 1
+Always called
+2/1 = 2
+Always called
+Really an integer? Try again
+Always called
+3/2 = 1
+Always called
+1/1 = 1
+Always called
+3/2 = 1
+Always called
+Division by zero?
+Always called
+0/1 = 0
+Always called
